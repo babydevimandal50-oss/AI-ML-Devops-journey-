@@ -1,0 +1,19 @@
+---
+application:
+  name: ai-devops-api
+  version: "1.0.0"
+
+server:
+  host: localhost
+  port: 8000
+
+database:
+  type: postgresql
+  enabled: true
+
+replicas: 2
+
+tools:
+  - Python
+  - Docker
+  - Kubernetes
